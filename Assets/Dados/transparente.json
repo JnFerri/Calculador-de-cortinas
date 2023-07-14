@@ -1,13 +1,36 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[0.80,1.60]
-			},
-		"textil":{ 
-			"medida":[1.20,1.60,2.08,2.40]
-			}
-			}
-
+		
+		"textil":[ {
+			"nome" : "CORTINA LAMINADA TRANSPARENTE 145G/M2",
+			"codigo": "36134",
+			"medida": 1.20
+		},
+		{
+			"nome" : "CORTINA LAMINADA TRANSPARENTE 145G/M2",
+			"codigo": "37145",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA TRANSPARENTE 145G/M2",
+			"codigo": "37318",
+			"medida": 2.08
+		},
+		{
+			"nome" : "CORTINA LAMINADA TRANSPARENTE 145G/M2",
+			"codigo": "36135",
+			"medida": 2.40
+		}
+		
+		
+		]
+	}
 
 }
+			
+
+
+
+			
+		

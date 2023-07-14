@@ -1,13 +1,52 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[0.80,1.30,1.60,2.10,3.20]
-			},
-		"textil":{ 
-			"medida":[1.50,3.00]
-			}
-			}
-
+		"propex":[ {
+			"nome" : "CORTINA DUPLO LAMINADA AMARELA 170G/M2",
+			"codigo": "37374",
+			"medida": 0.80
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA AMARELA 170G/M2",
+			"codigo": "36020",
+			"medida": 1.30
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA AMARELA 170G/M2",
+			"codigo": "36022",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA AMARELA 170G/M2",
+			"codigo": "36023",
+			"medida": 2.10
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA AMARELA 170G/M2",
+			"codigo": "36024",
+			"medida": 3.20
+		}
+		],
+			
+		"textil":[ {
+			"nome" : "CORTINA DUPLO LAMINADO AMARELA 180G/M2",
+			"codigo": "36006",
+			"medida": 1.5
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADO AMARELA 180G/M2",
+			"codigo": "36007",
+			"medida": 3.00
+		}
+		
+		
+		]
+	}
 
 }
+			
+
+
+
+			
+		

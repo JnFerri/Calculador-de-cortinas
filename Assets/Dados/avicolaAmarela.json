@@ -1,15 +1,71 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[1.63,1.95,2.45,2.65,2.85,3.25]
-			},
-		"textil":{ 
-			"medida":[1.5,2.10,2.40,2.60,3.10]
-			}
-			}
-
+		"propex":[ {
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36092",
+			"medida": 1.63
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36093",
+			"medida": 1.95
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36094",
+			"medida": 2.45
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36095",
+			"medida": 2.65
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36922",
+			"medida": 2.85
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36096",
+			"medida": 3.25
+		}
+		],
+			
+		"textil":[ {
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36120",
+			"medida": 1.50
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36121",
+			"medida": 2.10
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36122",
+			"medida": 2.40
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36123",
+			"medida": 2.60
+		},
+		{
+			"nome" : "CORTINA AVICOLA AMARELA 90G/M2",
+			"codigo": "36124",
+			"medida": 3.10
+		}
+		
+		]
+	}
 
 }
+			
+
+
+
 			
 		

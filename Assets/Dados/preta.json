@@ -1,13 +1,103 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[0.40,0.65,0.80,1.05,1.30,1.60,2.10,2.40,3.20]
-			},
-		"textil":{ 
-			"medida":[0.53,0.80,1.04,1.30,1.60,2.08,2.60,3.10]
-			}
-			}
-
+		"propex":[ {
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36575",
+			"medida": 0.40
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36566",
+			"medida": 0.65
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36567",
+			"medida": 0.80
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36568",
+			"medida": 1.05
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36570",
+			"medida": 1.30
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36571",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36572",
+			"medida": 2.10
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "37073",
+			"medida": 2.40
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36573",
+			"medida": 3.20
+		}
+		],
+			
+		"textil":[ {
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36781",
+			"medida": 0.53
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36782",
+			"medida": 0.80
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36908",
+			"medida": 1.04
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36783",
+			"medida": 1.30
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36784",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36785",
+			"medida": 2.08
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36786",
+			"medida": 2.60
+		},
+		{
+			"nome" : "CORTINA DUPLO LAMINADA PRETA 130G/M2",
+			"codigo": "36787",
+			"medida": 3.10
+		}
+		
+		
+		
+		]
+	}
 
 }
+			
+
+
+
+			
+		

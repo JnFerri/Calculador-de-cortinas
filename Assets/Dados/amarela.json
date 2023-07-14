@@ -1,13 +1,110 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[0.65,1.05,1.30,1.60,2.10,2.60,2.80,3.20]
-			},
-		"textil":{ 
-			"medida":[0.40,0.65,0.80,1.04,1.30,1.50,1.60,2.08,2.60,3.10]
-			}
-			}
-
+		"propex":[ {
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36240",
+			"medida": 0.65
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36241",
+			"medida": 1.05
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36242",
+			"medida": 1.30
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36243",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36244",
+			"medida": 2.10
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36245",
+			"medida": 2.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36246",
+			"medida": 2.80
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36247",
+			"medida": 3.20
+		}
+		],
+			
+		"textil":[ {
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36264",
+			"medida": 0.40
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36265",
+			"medida": 0.65
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36266",
+			"medida": 0.80
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36267",
+			"medida": 1.04
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36268",
+			"medida": 1.30
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36722",
+			"medida": 1.50
+		}
+		,
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36269",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36270",
+			"medida": 2.08
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36271",
+			"medida": 2.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AMARELA 120G/M2",
+			"codigo": "36272",
+			"medida": 3.10
+		}
+		
+		
+		
+		
+		]
+	}
 
 }
+			
+
+
+
+			
+		

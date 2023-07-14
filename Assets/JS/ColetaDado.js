@@ -23,34 +23,38 @@ export async function coletaDado(cortina,tamanho,modelo){
 
 
        
-    
-        const cortinasTextil = dadosJson.cortina.textil.medida
-        const cortinasPropex = dadosJson.cortina.propex.medida
-
+        
+        const cortinasTextil = dadosJson.cortina.textil.map(valor => valor)
+        
+        const cortinasPropex = dadosJson.cortina.propex.map(valor => valor)
+        
+       
         cortinasTextil.map(valor => {
-
-
-            let tamanhoCortina = valor
-            let cortinaCaculada = (valor - tamanho)*100
+            console.log(valor.codigo)
+            let itemCodigo =  valor.codigo
+            let tamanhoCortina = valor.medida
+            let cortinaCaculada = (tamanhoCortina - tamanho)*100
 
             if(cortinaCaculada >= 0){
             
-
-            localResultadoTextil.innerHTML += `<p>Cortina ${cortina} ${tamanhoCortina}M tem perda de ${cortinaCaculada.toFixed(0)} cm </p> `
+            localResultadoTextil.innerHTML += `<p> <strong>${itemCodigo}</strong>  -  ${valor.nome} <strong>${tamanhoCortina}M</strong> tem perda de ${cortinaCaculada.toFixed(0)} cm </p> `
             }
         })
 
         cortinasPropex.map(valor => {
-
-
-            let tamanhoCortina = valor
-            let cortinaCaculada = (valor - tamanho)*100
+            console.log(valor.codigo)
+            let itemCodigo =  valor.codigo
+            let tamanhoCortina = valor.medida
+            let cortinaCaculada = (tamanhoCortina - tamanho)*100
 
             if(cortinaCaculada >= 0){
-
-            localResultadoPropex.innerHTML += `<p>Cortina ${cortina} ${tamanhoCortina}M tem perda de ${cortinaCaculada.toFixed(0)} cm </p> `
+            
+            localResultadoPropex.innerHTML += `<p><strong>${itemCodigo}</strong>  -  ${valor.nome} <strong>${tamanhoCortina}M</strong> tem perda de ${cortinaCaculada.toFixed(0)} cm </p> `
             }
         })
+
+
+        
         
         
         if(dadosJson.erro){

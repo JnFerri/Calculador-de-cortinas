@@ -1,13 +1,98 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[0.40,0.65,0.80,1.05,1.30,1.60,1.90,2.10,2.40,3.20]
-			},
-		"textil":{ 
-			"medida":[0.53,1.20,1.60,2.08,2.40,2.93]
-			}
-			}
-
+		"propex":[ {
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36887",
+			"medida": 0.40
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36880",
+			"medida": 0.65
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36881",
+			"medida": 0.80
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36882",
+			"medida": 1.05
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36883",
+			"medida": 1.30
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36884",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36885",
+			"medida": 1.90
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36886",
+			"medida": 2.10
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "37089",
+			"medida": 2.40
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "37303",
+			"medida": 3.20
+		}
+		],
+			
+		"textil":[ {
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36978",
+			"medida": 0.53
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36949",
+			"medida": 1.20
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36950",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36951",
+			"medida": 2.08
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36952",
+			"medida": 2.40
+		},
+		{
+			"nome" : "CORTINA LAMINADA PRETA/PRATA 190G/M2",
+			"codigo": "36953",
+			"medida": 2.93
+		}
+		
+	
+		
+		]
+	}
 
 }
+			
+
+
+
+			
+		

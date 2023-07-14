@@ -1,13 +1,88 @@
 { 
 
 	"cortina":{
-		"propex":{ 
-			"medida":[0.65,1.05,1.60,2.10,2.60,3.20]
-			},
-		"textil":{ 
-			"medida":[0.50,0.80,1.04,1.40,1.60,2.08,2.60,3.00]
-			}
-			}
-
+		"propex":[ {
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36223",
+			"medida": 0.65
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36224",
+			"medida": 1.05
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36225",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36226",
+			"medida": 2.10
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36227",
+			"medida": 2.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36228",
+			"medida": 3.20
+		}
+		],
+			
+		"textil":[ {
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36204",
+			"medida": 0.50
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36205",
+			"medida": 0.80
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36206",
+			"medida": 1.04
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36207",
+			"medida": 1.40
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "37277",
+			"medida": 1.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36208",
+			"medida": 2.08
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36209",
+			"medida": 2.60
+		},
+		{
+			"nome" : "CORTINA LAMINADA AZUL 120G/M2",
+			"codigo": "36210",
+			"medida": 3.00
+		}
+		
+		
+		
+		]
+	}
 
 }
+			
+
+
+
+			
+		
