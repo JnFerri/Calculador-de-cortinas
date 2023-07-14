@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background: rgb(140,212,238);
+background: linear-gradient(180deg, rgba(140,212,238,1) 23%, rgba(189,189,189,1) 50%, rgba(233,208,148,1) 100%) no-repeat;
+
+}
+main{
+    margin: 5% 0;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario__select{
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.formulario__input{
+    padding: 5px;
+    border: black 1px solid;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.formulario__button{
+    padding: 10px;
+    border-radius: 10px;
+    border: black 1px solid;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#result {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#resultContainer{
+    width: 50%;
+    
+}
+
+#resultContainer h2{
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+#resultPropex, #resultTextil{
+text-align: center;
+}
+
+
+

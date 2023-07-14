@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" href="Assets/CSS/normalize.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+</head>
+<body>
+    <main>
+        <section class="formulario">
+    <select class="formulario__select" name="cortina" id="cortina">
+        <option value="avicolaAmarela">Avicola Amarela</option>
+        <option value="amarela">Amarela</option>
+        <option value="azul">Azul</option>
+        <option value="azulPrata">Azul/Prata</option>
+        <option value="branca">Branca</option>
+        <option value="brancaPrata">Branca/Prata</option>
+        <option value="duploAmarelo">Duplo Amarelo</option>
+        <option value="duploBranca">Duplo Branca</option>
+        <option value="preta">Preta</option>
+        <option value="pretaPrata190g">Preta/Prata 190G</option>
+        <option value="transparente">Transparente</option>
+    </select>
+    
+    <input type="Number" class="formulario__input" placeholder="tamanho" id="tamanho">
+    <select class="formulario__select" name="modelo" id="modelo">
+        <option value="retangular">Retangular</option>
+        <option value="modeloY">ModeloY</option>
+        <option value="3bainha">3 Bainhas</option>
+        <option value="4bainha">4 Bainhas</option>
+        <option value="persiana">Persiana</option>
+        <option value="contrapeso">Contrapeso</option>
+    </select>
+    <input type="button" class="formulario__button" value="Calcular" id="calcular">
+    </section>
+    
+    
+    <div id="result">
+        <div id="resultContainer"> 
+                <h2>Cortinas Propex :</h2>
+            <div id="resultPropex"></div>
+        </div>
+        <div id="resultContainer">
+            <h2>Cortinas Textil :</h2>
+            <div id="resultTextil"></div>
+        </div>
+    </div>
+    </main>
+</body>
+
+<script type="module" src="Assets/JS/index.js"></script>
+</html>
