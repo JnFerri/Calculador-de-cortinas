@@ -3,6 +3,8 @@
  const localResultadoTextil = document.getElementById('resultTextil')
 export async function coletaDado(cortina,tamanho,modelo){
     try{
+        localResultadoPropex.innerHTML = ''
+        localResultadoTextil.innerHTML = ''
        const tamanhoNumber = Number(tamanho)
         if(modelo == "retangular"){
             tamanho = tamanhoNumber + 0.14
