@@ -18,8 +18,10 @@ export async function coletaDado(cortina,tamanho,modelo){
             tamanho = tamanhoNumber + 0.42
         }
 
-        const dado = await fetch(`../Assets/Dados/${cortina}.json`)
+        const dado = await fetch(`https://jnferri.github.io/Calculador-de-cortinas/Assets/Dados/${cortina}.json`)
         const dadosJson = await dado.json()
+
+
        
     
         const cortinasTextil = dadosJson.cortina.textil.medida
