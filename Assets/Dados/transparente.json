@@ -1,6 +1,17 @@
 { 
 
 	"cortina":{
+
+		"propex":[ {
+			"nome" : "NÃO POSSUI CORTINA PROPEX",
+			"codigo": "0000",
+			"medida": 0
+		},
+		{
+			"nome" : "NÃO POSSUI CORTINA PROPEX",
+			"codigo": "0000",
+			"medida": 0
+		}],
 		
 		"textil":[ {
 			"nome" : "CORTINA LAMINADA TRANSPARENTE 145G/M2",
