@@ -23,7 +23,7 @@ export async function coletaDado(cortina,tamanho,modelo){
         const dado = await fetch(`https://jnferri.github.io/Calculador-de-cortinas/Assets/Dados/${cortina}.json`)
         const dadosJson = await dado.json()
 
-
+        console.log(dadosJson)
        
         
         const cortinasTextil = dadosJson.cortina.textil.map(valor => valor)
@@ -33,6 +33,7 @@ export async function coletaDado(cortina,tamanho,modelo){
         const cortinasTextilMedidas = []
         const cortinasPropexMedidas = []
         cortinasTextil.map(valor => {
+            console.log(valor)
             cortinasTextilMedidas.push(valor.medida)
             console.log(valor.codigo)
             let itemCodigo =  valor.codigo
@@ -46,6 +47,7 @@ export async function coletaDado(cortina,tamanho,modelo){
         })
 
         cortinasPropex.map(valor => {
+            console.log(valor)
             cortinasPropexMedidas.push(valor.medida)
             console.log(valor.codigo)
             let itemCodigo =  valor.codigo
@@ -60,8 +62,6 @@ export async function coletaDado(cortina,tamanho,modelo){
 
        
         
-        console.log(cortinasTextilMedidas, cortinasPropexMedidas)
-
 
         
         
