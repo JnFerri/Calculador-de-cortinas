@@ -16,8 +16,8 @@ export async function coletaDado(cortina,tamanho,modelo){
             tamanho = tamanhoNumber + 0.70
         }else if(modelo == "persiana"){
             tamanho = tamanhoNumber + 0.25
-        }else if(modelo == "contrapeso"){
-            tamanho = tamanhoNumber + 0.42
+        }else if(modelo == "tubo"){
+            tamanho = tamanhoNumber + 0.10
         }
 
         const dado = await fetch(`https://jnferri.github.io/Calculador-de-cortinas/Assets/Dados/${cortina}.json`)
@@ -30,8 +30,10 @@ export async function coletaDado(cortina,tamanho,modelo){
         
         const cortinasPropex = dadosJson.cortina.propex.map(valor => valor)
         
-       
+        const cortinasTextilMedidas = []
+        const cortinasPropexMedidas = []
         cortinasTextil.map(valor => {
+            cortinasTextilMedidas.push(valor.medida)
             console.log(valor.codigo)
             let itemCodigo =  valor.codigo
             let tamanhoCortina = valor.medida
@@ -44,6 +46,7 @@ export async function coletaDado(cortina,tamanho,modelo){
         })
 
         cortinasPropex.map(valor => {
+            cortinasPropexMedidas.push(valor.medida)
             console.log(valor.codigo)
             let itemCodigo =  valor.codigo
             let tamanhoCortina = valor.medida
@@ -54,6 +57,10 @@ export async function coletaDado(cortina,tamanho,modelo){
             localResultadoPropex.innerHTML += `<p><strong>${itemCodigo}</strong>  -  ${valor.nome} <strong>${tamanhoCortina}M</strong> tem perda de ${cortinaCaculada.toFixed(0)} cm </p> `
             }
         })
+
+       
+        
+        console.log(cortinasTextilMedidas, cortinasPropexMedidas)
 
 
         
