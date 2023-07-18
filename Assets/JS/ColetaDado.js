@@ -18,6 +18,8 @@ export async function coletaDado(cortina,tamanho,modelo){
             tamanho = tamanhoNumber + 0.25
         }else if(modelo == "tubo"){
             tamanho = tamanhoNumber + 0.10
+        }else if(modelo == "contrapeso"){
+            tamanho = tamanhoNumber + 0.42
         }
 
         const dado = await fetch(`https://jnferri.github.io/Calculador-de-cortinas/Assets/Dados/${cortina}.json`)
@@ -33,9 +35,8 @@ export async function coletaDado(cortina,tamanho,modelo){
         const cortinasTextilMedidas = []
         const cortinasPropexMedidas = []
         cortinasTextil.map(valor => {
-            console.log(valor)
+            
             cortinasTextilMedidas.push(valor.medida)
-            console.log(valor.codigo)
             let itemCodigo =  valor.codigo
             let tamanhoCortina = valor.medida
             let cortinaCaculada = (tamanhoCortina - tamanho)*100
@@ -47,9 +48,8 @@ export async function coletaDado(cortina,tamanho,modelo){
         })
 
         cortinasPropex.map(valor => {
-            console.log(valor)
+            
             cortinasPropexMedidas.push(valor.medida)
-            console.log(valor.codigo)
             let itemCodigo =  valor.codigo
             let tamanhoCortina = valor.medida
             let cortinaCaculada = (tamanhoCortina - tamanho)*100
@@ -60,8 +60,16 @@ export async function coletaDado(cortina,tamanho,modelo){
             }
         })
 
-       
-        
+       for(let i = 0; i<cortinasTextilMedidas.length;i++){
+            let medida = cortinasTextilMedidas[i]
+                for(let b = 0; b<cortinasTextilMedidas.length;b++){
+                    const medidaSomada = medida + cortinasTextilMedidas[b]
+                    if(medidaSomada < tamanhoCortina && medidaSomada >= 0) {
+                        localResultadoTextil.innerHTML += `Cortina com emenda pode ser utilizado a soma das cortinas ${medida}m e cortina ${cortinasTextilMedidas[b]}`
+                    }
+                }
+       }
+
 
         
         
